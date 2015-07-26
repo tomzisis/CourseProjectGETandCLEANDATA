@@ -97,11 +97,7 @@ View(finaldata)
 ```    
 
 
-Finally , you should read the `step5_finaldata.txt` file in R, using the command `read.table("./step5_finaldata.txt",header=T)` in order to see the tidy data set.
-
-
-
-
+Finally , you should read the `step5_finaldata.txt` file in R, using the command `w <- read.table("./step5_finaldata.txt",header=T)` and then `View(w)` in order to see the tidy data set.
 
 
 
