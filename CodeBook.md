@@ -1,5 +1,4 @@
-                                                         CODEBOOK
-                                                         ========                                               
+##CODEBOOK
 
 **Col1** **volunteer**           :   Identifier of each participant  (i.e: 1 -> 1st volunteer , 2 -> 2nd volunteer,..., 30 -> 30th volunteer)
 
@@ -183,10 +182,15 @@ Columns 3-68 have the name structure **(Feature)(Measure)(Direction)** or **(Fea
 
 
 
+
+
 **(Measure)**   :   **mean** (mean value) or **std** (standard deviation) 
 
 
+
+
 **(Direction)** :   **X** (X-axis) or **Y** (Y-axis) or **Z** (Z-axis)
+
 
 
 
