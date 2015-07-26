@@ -1,3 +1,4 @@
+
 The code in `run_analysis.R` script,performs an analysis of the data from accelerometers from the Samsung Galaxy S smartphones.First of all,
 we recommend to install the `plyr`,`dplyr` and `reshape2` packages in R , in order to run the code successfully.
 
