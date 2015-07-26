@@ -1,4 +1,4 @@
-                                      #CODEBOOK
+                                                         ##CODEBOOK
                                                                                                         
 
 **Col1** **volunteer**           :   Identifier of each participant  (i.e: 1 -> 1st volunteer , 2 -> 2nd volunteer,..., 30 -> 30th volunteer)
@@ -6,7 +6,7 @@
 **Col2** **activity**            :   Name of the activity (walking,walking upstairs,walking downstairs,sitting,standing,laying)
 
 
-Columns 3-68 have the name structure **(Feature)(Measure)(Direction)*8 or **(Feature)(Measure)**, that is :
+Columns 3-68 have the name structure **(Feature)(Measure)(Direction)** or **(Feature)(Measure)**, that is :
 
 **Col3** **tBodyAccmeanX**       
 
@@ -144,7 +144,7 @@ Columns 3-68 have the name structure **(Feature)(Measure)(Direction)*8 or **(Fea
  where ,
 
 
-(Feature) 
+**(Feature)** 
 
 
 tBodyAcc                  : Body Acceleration time signal
@@ -183,10 +183,11 @@ fBodyGyroJerkMag          : Body angular velocity frequency Jerk signal Magnitud
 
 
 
-(Measure)   :   mean (mean value) or std (standard deviation) 
+
+**(Measure)**   :   mean (mean value) or std (standard deviation) 
 
 
-(Direction) :   X (X-axis) or Y (Y-axis) or Z (Z-axis)
+**(Direction)** :   X (X-axis) or Y (Y-axis) or Z (Z-axis)
 
 
 
