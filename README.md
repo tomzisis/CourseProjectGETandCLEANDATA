@@ -1,12 +1,10 @@
-The code in `run_analysis.R` script,performs an analysis of the data from accelerometers from the Samsung Galaxy S smartphones.First of all , 
-
+The code in `run_analysis.R` script,performs an analysis of the data from accelerometers from the Samsung Galaxy S smartphones.First of all,
 we recommend to install the `plyr`,`dplyr` and `reshape2` packages in R , in order to run the code successfully.
 
 Kindly find below,the comments for each part of the procedure:
 
 
-**Lines 9-18:** The compressed(.zip) file is downloaded from the correspodent internet link and the basic folder 'UCI HAR Dataset' is extracted 
-
+**Lines 9-18:** The compressed(.zip) file is downloaded from the correspodent internet link and the basic folder 'UCI HAR Dataset' is extracted
 in order to read the appropriate files.
 
 
@@ -35,8 +33,7 @@ activ  = tolower(actlbs)
 
 ```
 
-**Lines 31-33:** Replacement of the column V1 in 'ytrain' and 'ytest' files with the column 'activity' which contains the full descriptive 6 activity names 
-
+**Lines 31-33:** Replacement of the column V1 in 'ytrain' and 'ytest' files with the column 'activity' which contains the full descriptive 6 activity names
 and binding of the 2 files in one (yall).
 
 ```
@@ -46,8 +43,7 @@ yall <- rbind(ytrain,ytest)
 
 ```
 
-**Lines 39-41:** We rename the column V1 in 'subtrain' and 'subtest' files with the name 'volunteer', which contains the number of each participant in the test 
-
+**Lines 39-41:** We rename the column V1 in 'subtrain' and 'subtest' files with the name 'volunteer', which contains the number of each participant in the test
 (total 30) and bind the 2 files in one (suball).
 
 ```
@@ -58,8 +54,7 @@ suball <- rbind(subtrain,subtest)
 ```
 
 
-**Lines 47-53:** Transformation of the feature names(check Codebook.md for further details) without dashes,parentheses,double words and renaming the name columns 
-
+**Lines 47-53:** Transformation of the feature names(check Codebook.md for further details) without dashes,parentheses,double words and renaming the name columns
 in 'xtrain' and 'xtest' files respectively , with the transformed names of the features.Finally, we bind the 2 files in one (datall).  
 
 ```
@@ -75,10 +70,8 @@ datall <- rbind(xtrain,xtest)
 
 
 
-**Lines 60-63:** Combination of the 3 files 'datall','yall' and 'suball' in one (finalset1), removing the duplicated columns and keeping only those which refer to 
-
-mean value (mean) and standard deviation (std) measures of the analogous features along with 'volunteer' and 'activity' columns.At the end, sorting by 'volunteer' 
-
+**Lines 60-63:** Combination of the 3 files 'datall','yall' and 'suball' in one (finalset1), removing the duplicated columns and keeping only those which refer to
+mean value (mean) and standard deviation (std) measures of the analogous features along with 'volunteer' and 'activity' columns.At the end, sorting by 'volunteer'
 and 'activity' (finalset-data frame).
 
 
@@ -91,8 +84,7 @@ finalset <- select(finalset1,volunteer,activity,g1)%>%arrange(volunteer,activity
 ```
 
 
-**Lines 69-71:** Transformation of the gathered data (meltset) so that we can calculate the average of the mean and std features for each volunteer and for each 
-
+**Lines 69-71:** Transformation of the gathered data (meltset) so that we can calculate the average of the mean and std features for each volunteer and for each
 activity.Extraction in R console of the table with the final tidy data (finaldata-data frame).
 
 
