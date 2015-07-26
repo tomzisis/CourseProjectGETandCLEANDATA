@@ -1,5 +1,5 @@
-                                                         ##CODEBOOK
-                                                                                                        
+                                                         CODEBOOK
+                                                         ========                                               
 
 **Col1** **volunteer**           :   Identifier of each participant  (i.e: 1 -> 1st volunteer , 2 -> 2nd volunteer,..., 30 -> 30th volunteer)
 
@@ -17,7 +17,6 @@ Columns 3-68 have the name structure **(Feature)(Measure)(Direction)** or **(Fea
 **Col6** **tBodyAccstdX** 
 
 **Col7** **tBodyAccstdY** 
-
 
 **Col8** **tBodyAccstdZ**
 
@@ -147,47 +146,47 @@ Columns 3-68 have the name structure **(Feature)(Measure)(Direction)** or **(Fea
 **(Feature)** 
 
 
-tBodyAcc                  : Body Acceleration time signal
+**tBodyAcc**                  : Body Acceleration time signal
 
-tGravityAcc               : Gravity Acceleration time signal
+**tGravityAcc**               : Gravity Acceleration time signal
 
-tBodyAccJerk              : Body Acceleration time Jerk signal
+**tBodyAccJerk**              : Body Acceleration time Jerk signal
 
-tBodyGyro                 : Body angular velocity time signal
+**tBodyGyro**                 : Body angular velocity time signal
 
-tBodyGyroJerk             : Body angular velocity time Jerk signal
+**tBodyGyroJerk**            : Body angular velocity time Jerk signal
 
-tBodyAccMag               : Body Acceleration time signal Magnitude
+**tBodyAccMag**               : Body Acceleration time signal Magnitude
 
-tGravityAccMag            : Gravity Acceleration time signal Magnitude
+**tGravityAccMag**            : Gravity Acceleration time signal Magnitude
 
-tBodyAccJerkMag           : Body Acceleration time Jerk signal Magnitude 
+**tBodyAccJerkMag**          : Body Acceleration time Jerk signal Magnitude 
 
-tBodyGyroMag              : Body angular velocity time signal Magnitude
+**tBodyGyroMag**              : Body angular velocity time signal Magnitude
 
-tBodyGyroJerkMag          : Body angular velocity time Jerk signal Magnitude
+**tBodyGyroJerkMag**          : Body angular velocity time Jerk signal Magnitude
 
-fBodyAcc                  : Body Acceleration frequency signal
+**fBodyAcc**                  : Body Acceleration frequency signal
 
-fBodyAccJerk              : Body Acceleration frequency Jerk signal
+**fBodyAccJerk**              : Body Acceleration frequency Jerk signal
 
-fBodyGyro                 : Body angular velocity frequency signal
+**fBodyGyro**                 : Body angular velocity frequency signal
 
-fBodyAccMag               : Body Acceleration frequency signal Magnitude
+**fBodyAccMag**              : Body Acceleration frequency signal Magnitude
 
-fBodyAccJerkMag           : Body Acceleration frequency Jerk signal Magnitude
+**fBodyAccJerkMag**           : Body Acceleration frequency Jerk signal Magnitude
 
-fBodyGyroMag              : Body angular velocity frequency signal Magnitude
+**fBodyGyroMag**              : Body angular velocity frequency signal Magnitude
 
-fBodyGyroJerkMag          : Body angular velocity frequency Jerk signal Magnitude
-
-
+**fBodyGyroJerkMag**          : Body angular velocity frequency Jerk signal Magnitude
 
 
-**(Measure)**   :   mean (mean value) or std (standard deviation) 
 
 
-**(Direction)** :   X (X-axis) or Y (Y-axis) or Z (Z-axis)
+**(Measure)**   :   **mean** (mean value) or **std** (standard deviation) 
+
+
+**(Direction)** :   **X** (X-axis) or **Y** (Y-axis) or **Z** (Z-axis)
 
 
 
