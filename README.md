@@ -94,3 +94,16 @@ finaldata <- dcast(meltset,volunteer+activity~variable,mean)
 View(finaldata)
 
 ```    
+
+
+Finally , you should read the `step5_finaldata.txt` file in R, using the command `read.table("./step5_finaldata.txt",header=T)` in order to see the tidy data set.
+
+
+
+
+
+
+
+
+
+
